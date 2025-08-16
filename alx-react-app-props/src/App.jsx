@@ -10,12 +10,14 @@ import UserProfile from './components/UserProfile'
 import ProfilePage from './components/ProfilePage'
 import UserInfo from './components/UserInfo'
 import UserDetails from './components/UserDetails'
+import UserContext from './context/UserContext'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
+        <UserContext />
         <UserDetails />
         <UserInfo />
         <ProfilePage />
