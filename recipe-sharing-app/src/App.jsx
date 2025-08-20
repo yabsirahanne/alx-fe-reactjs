@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import SearchBar from './Components/SearchBar';
-import RecipeList from './Components/RecipeList';
+import RecipeList from './Components/ RecipeList';
 import { useRecipeStore } from './store/recipeStore';
 import AddRecipeForm from './Components/AddRecipeForm';
 const App = () => {
