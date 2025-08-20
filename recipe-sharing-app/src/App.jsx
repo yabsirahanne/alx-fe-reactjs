@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import SearchBar from './components/SearchBar';
 import RecipeList from './components/RecipeList';
 import { useRecipeStore } from './store/recipeStore';
-
+import AddRecipeForm from './components/AddRecipeForm';
 const App = () => {
   const setRecipes = useRecipeStore(state => state.setRecipes);
 
@@ -24,6 +24,7 @@ const App = () => {
     <div className="min-h-screen bg-gray-50">
       <SearchBar />
       <RecipeList />
+      <AddRecipeForm />
     </div>
   );
 };
