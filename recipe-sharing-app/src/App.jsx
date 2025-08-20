@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import SearchBar from './components/SearchBar';
-import RecipeList from './components/RecipeList';
+import SearchBar from './Components/SearchBar';
+import RecipeList from './Components/RecipeList';
 import { useRecipeStore } from './store/recipeStore';
-import AddRecipeForm from './components/AddRecipeForm';
+import AddRecipeForm from './Components/AddRecipeForm';
 const App = () => {
   const setRecipes = useRecipeStore(state => state.setRecipes);
 
