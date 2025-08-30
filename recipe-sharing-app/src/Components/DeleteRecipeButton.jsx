@@ -1,5 +1,5 @@
 // DeleteRecipeButton.jsx
-import { useRecipeStore } from './recipeStore';
+import { useRecipeStore } from './Store';
 
 const DeleteRecipeButton = ({ recipeId }) => {
   const deleteRecipe = useRecipeStore((state) => state.deleteRecipe);
